@@ -13,7 +13,11 @@ services:
   nextjs:
     container_name: nextjs
     build:
+      context: ./
       dockerfile: Dockerfile
+      args:
+        ENV_VARIABLE: ${ENV_VARIABLE}
+        NEXT_PUBLIC_ENV_VARIABLE: ${NEXT_PUBLIC_ENV_VARIABLE}
     env_file:
       - .env
     networks:

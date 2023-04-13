@@ -5,12 +5,14 @@ RUN echo "base"
 FROM base AS builder
 RUN echo "builder"
 
+ARG OPENAI_API_KEY
+ENV OPENAI_API_KEY=${OPENAI_API_KEY}
+
+RUN echo "${OPENAI_API_KEY}"
+
 # Set working directory
 WORKDIR /usr/app
 
-# Copy project files
-COPY package.json ./
-COPY pnpm-lock.yaml ./# Install dependencies based on the preferred package manager
 COPY package.json yarn.lock* package-lock.json* pnpm-lock.yaml* ./
 # Omit --production flag for TypeScript devDependencies
 RUN \
@@ -28,6 +30,13 @@ RUN pnpm install
 
 # Copy project files and build
 COPY . .
+
+# Environment variables must be present at build time
+# https://github.com/vercel/next.js/discussions/14030
+ARG ENV_VARIABLE
+ENV ENV_VARIABLE=${ENV_VARIABLE}
+ARG NEXT_PUBLIC_ENV_VARIABLE
+ENV NEXT_PUBLIC_ENV_VARIABLE=${NEXT_PUBLIC_ENV_VARIABLE}
 
 RUN npx prisma generate
 
@@ -67,6 +76,12 @@ COPY --from=builder --chown=nextjs:nodejs /usr/app/dist/apps/${APP}/.next/static
 
 # Uncomment the following line to disable telemetry at run time
 # ENV NEXT_TELEMETRY_DISABLED 1
+
+# Environment variables must be redefined at run time
+ARG ENV_VARIABLE
+ENV ENV_VARIABLE=${ENV_VARIABLE}
+ARG NEXT_PUBLIC_ENV_VARIABLE
+ENV NEXT_PUBLIC_ENV_VARIABLE=${NEXT_PUBLIC_ENV_VARIABLE}
 
 # Note: Don't expose ports here, Compose will handle that for us
 
