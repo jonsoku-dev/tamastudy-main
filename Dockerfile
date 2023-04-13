@@ -17,7 +17,7 @@ COPY tsconfig*.json ./
 COPY .npmrc ./
 
 # Install pnpm package manager and project dependencies
-RUN npm install -g pnpm pm2 nx
+RUN npm install -g pnpm
 RUN pnpm install --production
 
 # Copy project files and build
