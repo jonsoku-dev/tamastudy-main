@@ -111,6 +111,9 @@ devDependencies:
   '@babel/preset-react':
     specifier: ^7.18.6
     version: 7.18.6(@babel/core@7.21.4)
+  '@nrwl/cli':
+    specifier: 15.9.2
+    version: 15.9.2(@swc/core@1.3.49)
   '@nrwl/cypress':
     specifier: 15.9.2
     version: 15.9.2(@swc/core@1.3.49)(cypress@12.9.0)(eslint@8.38.0)(nx@15.9.2)(typescript@5.0.4)
