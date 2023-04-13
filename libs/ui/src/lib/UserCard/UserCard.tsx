@@ -14,7 +14,7 @@ export const UserCard: React.FC<UserCardProps> = (props) => {
         <div
           className="card-cover"
           style={{
-            backgroundImage: `url(${`/members/backgrounds/bg${props.bgNum}.jpg`})`,
+            backgroundImage: `url(${`https://bucket-rctv5y.s3.ap-northeast-1.amazonaws.com/members/backgrounds/bg${props.bgNum}.jpg`})`,
           }}
         />
         <img
