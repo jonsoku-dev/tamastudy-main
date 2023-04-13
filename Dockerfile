@@ -10,19 +10,24 @@ WORKDIR /usr/app
 
 # Copy project files
 COPY package.json ./
-COPY pnpm-lock.yaml ./
+COPY pnpm-lock.yaml ./# Install dependencies based on the preferred package manager
+COPY package.json yarn.lock* package-lock.json* pnpm-lock.yaml* ./
+# Omit --production flag for TypeScript devDependencies
+RUN \
+  if [ -f yarn.lock ]; then yarn --frozen-lockfile; \
+  elif [ -f package-lock.json ]; then npm ci; \
+  elif [ -f pnpm-lock.yaml ]; then yarn global add pnpm && pnpm i; \
+  # Allow install without lockfile, so example works even without Node.js installed locally
+  else echo "Warning: Lockfile not found. It is recommended to commit lockfiles to version control." && yarn install; \
+  fi
 COPY tsconfig*.json ./
 
 # Install pnpm package manager and project dependencies
-RUN npm install -g pnpm @nrwl/cli nx
+RUN npm install -g pnpm
 RUN pnpm install
-
-RUN pnpm nx --help
 
 # Copy project files and build
 COPY . .
-
-RUN pnpm nx --help
 
 RUN npx prisma generate
 
