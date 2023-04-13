@@ -102,7 +102,7 @@ const IndexPage: NextPage<IndexPageProps> = ({ users }) => {
         </StyledInnerContainer>
         <Footer />
       </Splash>
-      <SideBar />
+      {!activeHamburger && <SideBar />}
     </>
   );
 };

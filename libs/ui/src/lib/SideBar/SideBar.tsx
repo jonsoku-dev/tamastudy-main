@@ -33,9 +33,9 @@ export const SideBar: React.FC<SideBarProps> = () => {
  */
 const StyledSubArea = styled.div`
   position: fixed;
-  top: 0;
-  right: 0;
-  height: 100vh;
+  top: 50%;
+  right: 5px;
+  transform: translateY(-50%);
 
   nav {
     display: flex;
