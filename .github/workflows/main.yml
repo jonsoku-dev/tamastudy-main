@@ -26,10 +26,9 @@ jobs:
           script: |
             whoami
             cd ${{ secrets.DEPLOY_DIR }}
-            sudo git pull origin main
-            echo "${{ secrets.BE_ENV_FILE }}" > ./be/.env
-            echo "${{ secrets.FE_ENV_FILE }}" > ./fe/.env
-            echo "${{ secrets.FE_ENV_FILE }}" > ./member/.env
-            echo "${{ secrets.FE_ENV_FILE }}" > ./admin/.env
             sudo docker compose down
+            sudo docker kill $(docker ps -aq) && docker rm $(docker ps -aq)
+            sudo docker system prune -af --volumes
+            sudo git pull origin main
+            echo "${{ secrets.ENV_FILE }}" > ./.env
             sudo docker compose up --build -d
