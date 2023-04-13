@@ -15,12 +15,14 @@ COPY tsconfig*.json ./
 
 # Install pnpm package manager and project dependencies
 RUN npm install -g pnpm @nrwl/cli nx
-RUN pnpm install --production
+RUN pnpm install
 
 RUN pnpm nx --help
 
 # Copy project files and build
 COPY . .
+
+RUN pnpm nx --help
 
 RUN npx prisma generate
 
