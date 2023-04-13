@@ -10,6 +10,9 @@ RUN echo "builder"
 WORKDIR /usr/app
 
 COPY package.json yarn.lock* package-lock.json* pnpm-lock.yaml* ./
+COPY tsconfig*.json ./
+
+# Install pnpm package manager and project dependencies
 # Omit --production flag for TypeScript devDependencies
 RUN \
   if [ -f yarn.lock ]; then yarn --frozen-lockfile; \
@@ -18,11 +21,6 @@ RUN \
   # Allow install without lockfile, so example works even without Node.js installed locally
   else echo "Warning: Lockfile not found. It is recommended to commit lockfiles to version control." && yarn install; \
   fi
-COPY tsconfig*.json ./
-
-# Install pnpm package manager and project dependencies
-RUN npm install -g pnpm
-RUN pnpm install
 
 # Copy project files and build
 COPY . .
