@@ -17,7 +17,7 @@ COPY tsconfig*.json ./
 COPY .npmrc ./
 
 # Install pnpm package manager and project dependencies
-RUN npm install -g pnpm
+RUN npm install -g pnpm @nrwl/cli
 RUN pnpm install --production
 
 # Copy project files and build
