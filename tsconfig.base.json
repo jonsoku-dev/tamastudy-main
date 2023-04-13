@@ -1,0 +1,29 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2017", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@tama/const": ["libs/const/src/index.ts"],
+      "@tama/data": ["libs/data/src/index.ts"],
+      "@tama/db": ["libs/db/src/index.ts"],
+      "@tama/hooks": ["libs/hooks/src/index.ts"],
+      "@tama/types": ["libs/types/src/index.ts"],
+      "@tama/ui": ["libs/ui/src/index.ts"],
+      "@tama/utils": ["libs/utils/src/index.ts"],
+      "@tama/workers": ["libs/workers/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
