@@ -5,10 +5,6 @@ RUN echo "base"
 FROM base AS builder
 RUN echo "builder"
 
-ARG OPENAI_API_KEY
-ENV OPENAI_API_KEY=${OPENAI_API_KEY}
-
-RUN echo "${OPENAI_API_KEY}"
 
 # Set working directory
 WORKDIR /usr/app
