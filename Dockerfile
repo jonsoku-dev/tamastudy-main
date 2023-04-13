@@ -8,13 +8,10 @@ RUN echo "builder"
 # Set working directory
 WORKDIR /usr/app
 
-RUN ls -al
-
 # Copy project files
 COPY package.json ./
 COPY pnpm-lock.yaml ./
 COPY tsconfig*.json ./
-COPY .npmrc ./
 
 # Install pnpm package manager and project dependencies
 RUN npm install -g pnpm @nrwl/cli
@@ -25,7 +22,7 @@ COPY . .
 
 RUN npx prisma generate
 
-RUN pnpm run nx run main:build:production
+RUN pnpm nx run main:build:production
 
 ## Copy project files and dependencies from base image
 #
