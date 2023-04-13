@@ -14,8 +14,10 @@ COPY pnpm-lock.yaml ./
 COPY tsconfig*.json ./
 
 # Install pnpm package manager and project dependencies
-RUN npm install -g pnpm @nrwl/cli
+RUN npm install -g pnpm @nrwl/cli nx
 RUN pnpm install --production
+
+RUN pnpm nx --help
 
 # Copy project files and build
 COPY . .
