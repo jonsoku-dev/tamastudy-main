@@ -1,236 +1,238 @@
 lockfileVersion: '6.0'
 
-dependencies:
-  '@auth0/nextjs-auth0':
-    specifier: ^2.4.0
-    version: 2.4.0(next@13.3.0)
-  '@faker-js/faker':
-    specifier: ^7.6.0
-    version: 7.6.0
-  '@hookform/resolvers':
-    specifier: ^3.0.1
-    version: 3.0.1(react-hook-form@7.43.9)
-  '@next/font':
-    specifier: 13.3.0
-    version: 13.3.0
-  '@nrwl/next':
-    specifier: 15.9.2
-    version: 15.9.2(@babel/core@7.21.4)(@swc/core@1.3.49)(@types/node@18.15.11)(eslint@8.38.0)(next@13.3.0)(nx@15.9.2)(typescript@5.0.4)(webpack@5.78.0)
-  '@prisma/client':
-    specifier: ^4.12.0
-    version: 4.12.0
-  '@react-hook/media-query':
-    specifier: ^1.1.1
-    version: 1.1.1(react@18.2.0)
-  '@svgr/webpack':
-    specifier: ^7.0.0
-    version: 7.0.0
-  '@tanstack/react-query':
-    specifier: ^4.29.1
-    version: 4.29.1(react-dom@18.2.0)(react@18.2.0)
-  '@tanstack/react-table':
-    specifier: ^8.8.5
-    version: 8.8.5(react-dom@18.2.0)(react@18.2.0)
-  axios:
-    specifier: ^1.3.5
-    version: 1.3.5
-  date-fns:
-    specifier: ^2.29.3
-    version: 2.29.3
-  html-react-parser:
-    specifier: ^3.0.15
-    version: 3.0.15(react@18.2.0)
-  next:
-    specifier: 13.3.0
-    version: 13.3.0(@babel/core@7.21.4)(react-dom@18.2.0)(react@18.2.0)
-  next-pwa:
-    specifier: ^5.6.0
-    version: 5.6.0(@babel/core@7.21.4)(@swc/core@1.3.49)(next@13.3.0)(webpack@5.78.0)
-  next-secure-headers:
-    specifier: ^2.2.0
-    version: 2.2.0
-  nextjs-google-analytics:
-    specifier: ^2.3.3
-    version: 2.3.3(next@13.3.0)(react@18.2.0)
-  openai:
-    specifier: ^3.2.1
-    version: 3.2.1
-  react:
-    specifier: 18.2.0
-    version: 18.2.0
-  react-dom:
-    specifier: 18.2.0
-    version: 18.2.0(react@18.2.0)
-  react-error-boundary:
-    specifier: ^4.0.3
-    version: 4.0.3(react@18.2.0)
-  react-grid-gallery:
-    specifier: ^1.0.0
-    version: 1.0.0(react@18.2.0)
-  react-hook-form:
-    specifier: ^7.43.9
-    version: 7.43.9(react@18.2.0)
-  react-image-lightbox:
-    specifier: ^5.1.4
-    version: 5.1.4(react-dom@18.2.0)(react@18.2.0)
-  react-is:
-    specifier: 18.2.0
-    version: 18.2.0
-  react-progressbar-on-scroll:
-    specifier: ^2.0.0
-    version: 2.0.0(react@18.2.0)
-  react-scroll:
-    specifier: ^1.8.9
-    version: 1.8.9(react-dom@18.2.0)(react@18.2.0)
-  react-sticky-box:
-    specifier: ^2.0.0
-    version: 2.0.0(react@18.2.0)
-  react-toastify:
-    specifier: ^9.1.2
-    version: 9.1.2(react-dom@18.2.0)(react@18.2.0)
-  react-transition-group:
-    specifier: ^4.4.5
-    version: 4.4.5(react-dom@18.2.0)(react@18.2.0)
-  sharp:
-    specifier: ^0.32.0
-    version: 0.32.0
-  styled-components:
-    specifier: ^5.3.9
-    version: 5.3.9(react-dom@18.2.0)(react-is@18.2.0)(react@18.2.0)
-  swiper:
-    specifier: ^9.2.0
-    version: 9.2.0
-  tslib:
-    specifier: ^2.5.0
-    version: 2.5.0
-  yup:
-    specifier: ^1.1.0
-    version: 1.1.0
+importers:
 
-devDependencies:
-  '@babel/preset-react':
-    specifier: ^7.18.6
-    version: 7.18.6(@babel/core@7.21.4)
-  '@nrwl/cli':
-    specifier: 15.9.2
-    version: 15.9.2(@swc/core@1.3.49)
-  '@nrwl/cypress':
-    specifier: 15.9.2
-    version: 15.9.2(@swc/core@1.3.49)(cypress@12.9.0)(eslint@8.38.0)(nx@15.9.2)(typescript@5.0.4)
-  '@nrwl/eslint-plugin-nx':
-    specifier: 15.9.2
-    version: 15.9.2(@typescript-eslint/parser@5.58.0)(eslint-config-prettier@8.8.0)(eslint@8.38.0)(nx@15.9.2)(typescript@5.0.4)
-  '@nrwl/jest':
-    specifier: 15.9.2
-    version: 15.9.2(@swc/core@1.3.49)(@types/node@18.15.11)(nx@15.9.2)(ts-node@10.9.1)(typescript@5.0.4)
-  '@nrwl/js':
-    specifier: 15.9.2
-    version: 15.9.2(@swc/core@1.3.49)(nx@15.9.2)(typescript@5.0.4)
-  '@nrwl/linter':
-    specifier: 15.9.2
-    version: 15.9.2(@swc/core@1.3.49)(eslint@8.38.0)(nx@15.9.2)(typescript@5.0.4)
-  '@nrwl/react':
-    specifier: 15.9.2
-    version: 15.9.2(@swc/core@1.3.49)(eslint@8.38.0)(nx@15.9.2)(typescript@5.0.4)(webpack@5.78.0)
-  '@nrwl/workspace':
-    specifier: 15.9.2
-    version: 15.9.2(@swc/core@1.3.49)
-  '@swc/core':
-    specifier: ^1.3.49
-    version: 1.3.49
-  '@swc/jest':
-    specifier: 0.2.24
-    version: 0.2.24(@swc/core@1.3.49)
-  '@testing-library/react':
-    specifier: 14.0.0
-    version: 14.0.0(react-dom@18.2.0)(react@18.2.0)
-  '@types/jest':
-    specifier: ^29.5.0
-    version: 29.5.0
-  '@types/node':
-    specifier: 18.15.11
-    version: 18.15.11
-  '@types/react':
-    specifier: 18.0.35
-    version: 18.0.35
-  '@types/react-dom':
-    specifier: 18.0.11
-    version: 18.0.11
-  '@types/react-is':
-    specifier: 17.0.3
-    version: 17.0.3
-  '@types/react-scroll':
-    specifier: ^1.8.6
-    version: 1.8.6
-  '@types/react-transition-group':
-    specifier: ^4.4.5
-    version: 4.4.5
-  '@types/styled-components':
-    specifier: ^5.1.26
-    version: 5.1.26
-  '@typescript-eslint/eslint-plugin':
-    specifier: ^5.58.0
-    version: 5.58.0(@typescript-eslint/parser@5.58.0)(eslint@8.38.0)(typescript@5.0.4)
-  '@typescript-eslint/parser':
-    specifier: ^5.58.0
-    version: 5.58.0(eslint@8.38.0)(typescript@5.0.4)
-  babel-jest:
-    specifier: ^29.5.0
-    version: 29.5.0(@babel/core@7.21.4)
-  babel-plugin-styled-components:
-    specifier: 2.1.1
-    version: 2.1.1(styled-components@5.3.9)
-  cypress:
-    specifier: ^12.9.0
-    version: 12.9.0
-  eslint:
-    specifier: ~8.38.0
-    version: 8.38.0
-  eslint-config-next:
-    specifier: 13.3.0
-    version: 13.3.0(eslint@8.38.0)(typescript@5.0.4)
-  eslint-config-prettier:
-    specifier: 8.8.0
-    version: 8.8.0(eslint@8.38.0)
-  eslint-plugin-cypress:
-    specifier: ^2.13.2
-    version: 2.13.2(eslint@8.38.0)
-  eslint-plugin-import:
-    specifier: 2.27.5
-    version: 2.27.5(@typescript-eslint/parser@5.58.0)(eslint-import-resolver-typescript@3.5.5)(eslint@8.38.0)
-  eslint-plugin-jsx-a11y:
-    specifier: 6.7.1
-    version: 6.7.1(eslint@8.38.0)
-  eslint-plugin-react:
-    specifier: 7.32.2
-    version: 7.32.2(eslint@8.38.0)
-  eslint-plugin-react-hooks:
-    specifier: 4.6.0
-    version: 4.6.0(eslint@8.38.0)
-  jest:
-    specifier: ^29.5.0
-    version: 29.5.0(@types/node@18.15.11)(ts-node@10.9.1)
-  jest-environment-jsdom:
-    specifier: ^29.5.0
-    version: 29.5.0
-  nx:
-    specifier: 15.9.2
-    version: 15.9.2(@swc/core@1.3.49)
-  prettier:
-    specifier: ^2.8.7
-    version: 2.8.7
-  react-test-renderer:
-    specifier: 18.2.0
-    version: 18.2.0(react@18.2.0)
-  ts-jest:
-    specifier: ^29.1.0
-    version: 29.1.0(@babel/core@7.21.4)(babel-jest@29.5.0)(jest@29.5.0)(typescript@5.0.4)
-  ts-node:
-    specifier: 10.9.1
-    version: 10.9.1(@swc/core@1.3.49)(@types/node@18.15.11)(typescript@5.0.4)
-  typescript:
-    specifier: ~5.0.4
-    version: 5.0.4
+  .:
+    dependencies:
+      '@auth0/nextjs-auth0':
+        specifier: ^2.4.0
+        version: 2.4.0(next@13.3.0)
+      '@faker-js/faker':
+        specifier: ^7.6.0
+        version: 7.6.0
+      '@hookform/resolvers':
+        specifier: ^3.0.1
+        version: 3.0.1(react-hook-form@7.43.9)
+      '@next/font':
+        specifier: 13.3.0
+        version: 13.3.0
+      '@nrwl/next':
+        specifier: 15.9.2
+        version: 15.9.2(@babel/core@7.21.4)(@swc/core@1.3.49)(@types/node@18.15.11)(eslint@8.38.0)(next@13.3.0)(nx@15.9.2)(typescript@5.0.4)(webpack@5.79.0)
+      '@prisma/client':
+        specifier: ^4.12.0
+        version: 4.12.0
+      '@react-hook/media-query':
+        specifier: ^1.1.1
+        version: 1.1.1(react@18.2.0)
+      '@svgr/webpack':
+        specifier: ^7.0.0
+        version: 7.0.0
+      '@tanstack/react-query':
+        specifier: ^4.29.1
+        version: 4.29.1(react-dom@18.2.0)(react@18.2.0)
+      '@tanstack/react-table':
+        specifier: ^8.8.5
+        version: 8.8.5(react-dom@18.2.0)(react@18.2.0)
+      axios:
+        specifier: ^1.3.5
+        version: 1.3.5
+      date-fns:
+        specifier: ^2.29.3
+        version: 2.29.3
+      html-react-parser:
+        specifier: ^3.0.15
+        version: 3.0.15(react@18.2.0)
+      next:
+        specifier: 13.3.0
+        version: 13.3.0(@babel/core@7.21.4)(react-dom@18.2.0)(react@18.2.0)
+      next-pwa:
+        specifier: ^5.6.0
+        version: 5.6.0(@babel/core@7.21.4)(@swc/core@1.3.49)(next@13.3.0)(webpack@5.79.0)
+      next-secure-headers:
+        specifier: ^2.2.0
+        version: 2.2.0
+      nextjs-google-analytics:
+        specifier: ^2.3.3
+        version: 2.3.3(next@13.3.0)(react@18.2.0)
+      openai:
+        specifier: ^3.2.1
+        version: 3.2.1
+      react:
+        specifier: 18.2.0
+        version: 18.2.0
+      react-dom:
+        specifier: 18.2.0
+        version: 18.2.0(react@18.2.0)
+      react-error-boundary:
+        specifier: ^4.0.3
+        version: 4.0.3(react@18.2.0)
+      react-grid-gallery:
+        specifier: ^1.0.0
+        version: 1.0.0(react@18.2.0)
+      react-hook-form:
+        specifier: ^7.43.9
+        version: 7.43.9(react@18.2.0)
+      react-image-lightbox:
+        specifier: ^5.1.4
+        version: 5.1.4(react-dom@18.2.0)(react@18.2.0)
+      react-is:
+        specifier: 18.2.0
+        version: 18.2.0
+      react-progressbar-on-scroll:
+        specifier: ^2.0.0
+        version: 2.0.0(react@18.2.0)
+      react-scroll:
+        specifier: ^1.8.9
+        version: 1.8.9(react-dom@18.2.0)(react@18.2.0)
+      react-sticky-box:
+        specifier: ^2.0.0
+        version: 2.0.0(react@18.2.0)
+      react-toastify:
+        specifier: ^9.1.2
+        version: 9.1.2(react-dom@18.2.0)(react@18.2.0)
+      react-transition-group:
+        specifier: ^4.4.5
+        version: 4.4.5(react-dom@18.2.0)(react@18.2.0)
+      sharp:
+        specifier: ^0.32.0
+        version: 0.32.0
+      styled-components:
+        specifier: ^5.3.9
+        version: 5.3.9(react-dom@18.2.0)(react-is@18.2.0)(react@18.2.0)
+      swiper:
+        specifier: ^9.2.0
+        version: 9.2.0
+      tslib:
+        specifier: ^2.5.0
+        version: 2.5.0
+      yup:
+        specifier: ^1.1.0
+        version: 1.1.0
+    devDependencies:
+      '@babel/preset-react':
+        specifier: ^7.18.6
+        version: 7.18.6(@babel/core@7.21.4)
+      '@nrwl/cli':
+        specifier: 15.9.2
+        version: 15.9.2(@swc/core@1.3.49)
+      '@nrwl/cypress':
+        specifier: 15.9.2
+        version: 15.9.2(@swc/core@1.3.49)(cypress@12.9.0)(eslint@8.38.0)(nx@15.9.2)(typescript@5.0.4)
+      '@nrwl/eslint-plugin-nx':
+        specifier: 15.9.2
+        version: 15.9.2(@typescript-eslint/parser@5.58.0)(eslint-config-prettier@8.8.0)(eslint@8.38.0)(nx@15.9.2)(typescript@5.0.4)
+      '@nrwl/jest':
+        specifier: 15.9.2
+        version: 15.9.2(@swc/core@1.3.49)(@types/node@18.15.11)(nx@15.9.2)(ts-node@10.9.1)(typescript@5.0.4)
+      '@nrwl/js':
+        specifier: 15.9.2
+        version: 15.9.2(@swc/core@1.3.49)(nx@15.9.2)(typescript@5.0.4)
+      '@nrwl/linter':
+        specifier: 15.9.2
+        version: 15.9.2(@swc/core@1.3.49)(eslint@8.38.0)(nx@15.9.2)(typescript@5.0.4)
+      '@nrwl/react':
+        specifier: 15.9.2
+        version: 15.9.2(@swc/core@1.3.49)(eslint@8.38.0)(nx@15.9.2)(typescript@5.0.4)(webpack@5.79.0)
+      '@nrwl/workspace':
+        specifier: 15.9.2
+        version: 15.9.2(@swc/core@1.3.49)
+      '@swc/core':
+        specifier: ^1.3.49
+        version: 1.3.49
+      '@swc/jest':
+        specifier: 0.2.24
+        version: 0.2.24(@swc/core@1.3.49)
+      '@testing-library/react':
+        specifier: 14.0.0
+        version: 14.0.0(react-dom@18.2.0)(react@18.2.0)
+      '@types/jest':
+        specifier: ^29.5.0
+        version: 29.5.0
+      '@types/node':
+        specifier: 18.15.11
+        version: 18.15.11
+      '@types/react':
+        specifier: 18.0.35
+        version: 18.0.35
+      '@types/react-dom':
+        specifier: 18.0.11
+        version: 18.0.11
+      '@types/react-is':
+        specifier: 17.0.3
+        version: 17.0.3
+      '@types/react-scroll':
+        specifier: ^1.8.6
+        version: 1.8.6
+      '@types/react-transition-group':
+        specifier: ^4.4.5
+        version: 4.4.5
+      '@types/styled-components':
+        specifier: ^5.1.26
+        version: 5.1.26
+      '@typescript-eslint/eslint-plugin':
+        specifier: ^5.58.0
+        version: 5.58.0(@typescript-eslint/parser@5.58.0)(eslint@8.38.0)(typescript@5.0.4)
+      '@typescript-eslint/parser':
+        specifier: ^5.58.0
+        version: 5.58.0(eslint@8.38.0)(typescript@5.0.4)
+      babel-jest:
+        specifier: ^29.5.0
+        version: 29.5.0(@babel/core@7.21.4)
+      babel-plugin-styled-components:
+        specifier: 2.1.1
+        version: 2.1.1(styled-components@5.3.9)
+      cypress:
+        specifier: ^12.9.0
+        version: 12.9.0
+      eslint:
+        specifier: ~8.38.0
+        version: 8.38.0
+      eslint-config-next:
+        specifier: 13.3.0
+        version: 13.3.0(eslint@8.38.0)(typescript@5.0.4)
+      eslint-config-prettier:
+        specifier: 8.8.0
+        version: 8.8.0(eslint@8.38.0)
+      eslint-plugin-cypress:
+        specifier: ^2.13.2
+        version: 2.13.2(eslint@8.38.0)
+      eslint-plugin-import:
+        specifier: 2.27.5
+        version: 2.27.5(@typescript-eslint/parser@5.58.0)(eslint-import-resolver-typescript@3.5.5)(eslint@8.38.0)
+      eslint-plugin-jsx-a11y:
+        specifier: 6.7.1
+        version: 6.7.1(eslint@8.38.0)
+      eslint-plugin-react:
+        specifier: 7.32.2
+        version: 7.32.2(eslint@8.38.0)
+      eslint-plugin-react-hooks:
+        specifier: 4.6.0
+        version: 4.6.0(eslint@8.38.0)
+      jest:
+        specifier: ^29.5.0
+        version: 29.5.0(@types/node@18.15.11)(ts-node@10.9.1)
+      jest-environment-jsdom:
+        specifier: ^29.5.0
+        version: 29.5.0
+      nx:
+        specifier: 15.9.2
+        version: 15.9.2(@swc/core@1.3.49)
+      prettier:
+        specifier: ^2.8.7
+        version: 2.8.7
+      react-test-renderer:
+        specifier: 18.2.0
+        version: 18.2.0(react@18.2.0)
+      ts-jest:
+        specifier: ^29.1.0
+        version: 29.1.0(@babel/core@7.21.4)(babel-jest@29.5.0)(jest@29.5.0)(typescript@5.0.4)
+      ts-node:
+        specifier: 10.9.1
+        version: 10.9.1(@swc/core@1.3.49)(@types/node@18.15.11)(typescript@5.0.4)
+      typescript:
+        specifier: ~5.0.4
+        version: 5.0.4
 
 packages:
 
@@ -264,7 +266,7 @@ packages:
       debug: 4.3.4(supports-color@5.5.0)
       http-errors: 1.8.1
       joi: 17.9.1
-      jose: 4.13.1
+      jose: 4.13.2
       next: 13.3.0(@babel/core@7.21.4)(react-dom@18.2.0)(react@18.2.0)
       openid-client: 5.4.0
       tslib: 2.5.0
@@ -1824,7 +1826,7 @@ packages:
     dependencies:
       '@bcoe/v8-coverage': 0.2.3
       '@jest/console': 28.1.3
-      '@jest/test-result': 28.1.3
+      '@jest/test-result': 28.1.1
       '@jest/transform': 28.1.3
       '@jest/types': 28.1.3
       '@jridgewell/trace-mapping': 0.3.18
@@ -1840,7 +1842,7 @@ packages:
       istanbul-lib-source-maps: 4.0.1
       istanbul-reports: 3.1.5
       jest-message-util: 28.1.3
-      jest-util: 28.1.3
+      jest-util: 28.1.1
       jest-worker: 28.1.3
       slash: 3.0.0
       string-length: 4.0.2
@@ -2366,7 +2368,7 @@ packages:
       - supports-color
       - typescript
 
-  /@nrwl/next@15.9.2(@babel/core@7.21.4)(@swc/core@1.3.49)(@types/node@18.15.11)(eslint@8.38.0)(next@13.3.0)(nx@15.9.2)(typescript@5.0.4)(webpack@5.78.0):
+  /@nrwl/next@15.9.2(@babel/core@7.21.4)(@swc/core@1.3.49)(@types/node@18.15.11)(eslint@8.38.0)(next@13.3.0)(nx@15.9.2)(typescript@5.0.4)(webpack@5.79.0):
     resolution: {integrity: sha512-Mz6xkVNC8mZ+uRBvv/z2Ie7usfOzapcK/sblLM+pgGLVeOkbW3tfy8W9PhdIdiwxwmJUJF2JU2y+m3rt6Jg5dw==}
     peerDependencies:
       next: ^13.0.0
@@ -2375,11 +2377,11 @@ packages:
       '@nrwl/devkit': 15.9.2(nx@15.9.2)
       '@nrwl/js': 15.9.2(@swc/core@1.3.49)(nx@15.9.2)(typescript@5.0.4)
       '@nrwl/linter': 15.9.2(@swc/core@1.3.49)(eslint@8.38.0)(nx@15.9.2)(typescript@5.0.4)
-      '@nrwl/react': 15.9.2(@swc/core@1.3.49)(eslint@8.38.0)(nx@15.9.2)(typescript@5.0.4)(webpack@5.78.0)
+      '@nrwl/react': 15.9.2(@swc/core@1.3.49)(eslint@8.38.0)(nx@15.9.2)(typescript@5.0.4)(webpack@5.79.0)
       '@nrwl/workspace': 15.9.2(@swc/core@1.3.49)
       '@svgr/webpack': 6.5.1
       chalk: 4.1.2
-      copy-webpack-plugin: 10.2.4(webpack@5.78.0)
+      copy-webpack-plugin: 10.2.4(webpack@5.79.0)
       dotenv: 10.0.0
       express: 4.18.2
       fs-extra: 11.1.1
@@ -2390,7 +2392,7 @@ packages:
       ts-node: 10.9.1(@swc/core@1.3.49)(@types/node@18.15.11)(typescript@5.0.4)
       tsconfig-paths: 4.2.0
       tsconfig-paths-webpack-plugin: 4.0.0
-      url-loader: 4.1.1(webpack@5.78.0)
+      url-loader: 4.1.1(webpack@5.79.0)
       webpack-merge: 5.8.0
     transitivePeerDependencies:
       - '@babel/core'
@@ -2481,7 +2483,7 @@ packages:
     requiresBuild: true
     optional: true
 
-  /@nrwl/react@15.9.2(@swc/core@1.3.49)(eslint@8.38.0)(nx@15.9.2)(typescript@5.0.4)(webpack@5.78.0):
+  /@nrwl/react@15.9.2(@swc/core@1.3.49)(eslint@8.38.0)(nx@15.9.2)(typescript@5.0.4)(webpack@5.79.0):
     resolution: {integrity: sha512-C/rrlCtPHuMO3Wtrl32ABUgMLf3+CNcC4cTTamEvcOemO2JxB3yqLfn1MH2aS05t+HoFrf/3wbxhLCJbgLdMjA==}
     dependencies:
       '@nrwl/devkit': 15.9.2(nx@15.9.2)
@@ -2491,7 +2493,7 @@ packages:
       '@phenomnomnominal/tsquery': 4.1.1(typescript@5.0.4)
       '@svgr/webpack': 6.5.1
       chalk: 4.1.2
-      file-loader: 6.2.0(webpack@5.78.0)
+      file-loader: 6.2.0(webpack@5.79.0)
       minimatch: 3.0.5
     transitivePeerDependencies:
       - '@babel/traverse'
@@ -3225,20 +3227,20 @@ packages:
     resolution: {integrity: sha512-9K4zoImiZc3HlIp6AVUDE4CWYx22a+lhSZMYNpbjW04+YF0KWj4pJXnEMjdnFTiQibFFmElcsasJXDbdI/EPhA==}
     dependencies:
       '@types/eslint': 8.37.0
-      '@types/estree': 0.0.51
+      '@types/estree': 1.0.0
 
   /@types/eslint@8.37.0:
     resolution: {integrity: sha512-Piet7dG2JBuDIfohBngQ3rCt7MgO9xCO4xIMKxBThCq5PNRB91IjlJ10eJVwfoNtvTErmxLzwBZ7rHZtbOMmFQ==}
     dependencies:
-      '@types/estree': 0.0.51
+      '@types/estree': 1.0.0
       '@types/json-schema': 7.0.11
 
   /@types/estree@0.0.39:
     resolution: {integrity: sha512-EYNwp3bU+98cpU4lAWYYL7Zz+2gryWH1qbdDTidVd6hkiR6weksdbMadyXKXNPEkQFhXM+hVO9ZygomHXp+AIw==}
     dev: false
 
-  /@types/estree@0.0.51:
-    resolution: {integrity: sha512-CuPgU6f3eT/XgKKPqKd/gLZV1Xmvf1a2R5POBOGQa6uv82xpls89HU5zKeVoyR8XzHd1RGNOlQlvUe3CFkjWNQ==}
+  /@types/estree@1.0.0:
+    resolution: {integrity: sha512-WulqXMDUTYAXCjZnk6JtIHPigp55cVtDgDrO2gHRwhyJto21+1zbVCtOYB2L1F9w4qCQ0rOGWBnBe0FNTiEJIQ==}
 
   /@types/glob@7.2.0:
     resolution: {integrity: sha512-ZUxbzKl0IfJILTS6t7ip5fQQM/J3TJYubDm3nMbgubNNYS62eXeUpoLUC8/7fJNiFYHTrGPQn7hspDUzIHX3UA==}
@@ -4013,7 +4015,7 @@ packages:
       - supports-color
     dev: true
 
-  /babel-loader@8.3.0(@babel/core@7.21.4)(webpack@5.78.0):
+  /babel-loader@8.3.0(@babel/core@7.21.4)(webpack@5.79.0):
     resolution: {integrity: sha512-H8SvsMF+m9t15HNLMipppzkC+Y2Yq+v3SonZyU70RBL/h1gxPkH08Ot8pEE9Z4Kd+czyWJClmFS8qzIP9OZ04Q==}
     engines: {node: '>= 8.9'}
     peerDependencies:
@@ -4025,7 +4027,7 @@ packages:
       loader-utils: 2.0.4
       make-dir: 3.1.0
       schema-utils: 2.7.1
-      webpack: 5.78.0(@swc/core@1.3.49)
+      webpack: 5.79.0(@swc/core@1.3.49)
     dev: false
 
   /babel-plugin-const-enum@1.2.0(@babel/core@7.21.4):
@@ -4262,7 +4264,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001478
-      electron-to-chromium: 1.4.359
+      electron-to-chromium: 1.4.361
       node-releases: 2.0.10
       update-browserslist-db: 1.0.10(browserslist@4.21.5)
 
@@ -4404,14 +4406,14 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /clean-webpack-plugin@4.0.0(webpack@5.78.0):
+  /clean-webpack-plugin@4.0.0(webpack@5.79.0):
     resolution: {integrity: sha512-WuWE1nyTNAyW5T7oNyys2EN0cfP2fdRxhxnIQWiAp0bMabPdHhoGxM8A6YL2GhqwgrPnnaemVE7nv5XJ2Fhh2w==}
     engines: {node: '>=10.0.0'}
     peerDependencies:
       webpack: '>=4.0.0 <6.0.0'
     dependencies:
       del: 4.1.1
-      webpack: 5.78.0(@swc/core@1.3.49)
+      webpack: 5.79.0(@swc/core@1.3.49)
     dev: false
 
   /cli-cursor@3.1.0:
@@ -4580,7 +4582,7 @@ packages:
     engines: {node: '>= 0.6'}
     dev: false
 
-  /copy-webpack-plugin@10.2.4(webpack@5.78.0):
+  /copy-webpack-plugin@10.2.4(webpack@5.79.0):
     resolution: {integrity: sha512-xFVltahqlsRcyyJqQbDY6EYTtyQZF9rf+JPjwHObLdPFMEISqkFkr7mFoVOC6BfYS/dNThyoQKvziugm+OnwBg==}
     engines: {node: '>= 12.20.0'}
     peerDependencies:
@@ -4592,7 +4594,7 @@ packages:
       normalize-path: 3.0.0
       schema-utils: 4.0.0
       serialize-javascript: 6.0.1
-      webpack: 5.78.0(@swc/core@1.3.49)
+      webpack: 5.79.0(@swc/core@1.3.49)
     dev: false
 
   /core-js-compat@3.30.0:
@@ -5099,8 +5101,8 @@ packages:
     dependencies:
       jake: 10.8.5
 
-  /electron-to-chromium@1.4.359:
-    resolution: {integrity: sha512-OoVcngKCIuNXtZnsYoqlCvr0Cf3NIPzDIgwUfI9bdTFjXCrr79lI0kwQstLPZ7WhCezLlGksZk/BFAzoXC7GDw==}
+  /electron-to-chromium@1.4.361:
+    resolution: {integrity: sha512-VocVwjPp05HUXzf3xmL0boRn5b0iyqC7amtDww84Jb1QJNPBc7F69gJyEeXRoriLBC4a5pSyckdllrXAg4mmRA==}
 
   /emittery@0.10.2:
     resolution: {integrity: sha512-aITqOwnLanpHLNXZJENbOgjUBeHocD+xsSJmNrjovKBW5HbSpW3d1pEls7GFQPUWXiwG9+0P4GtHfEqC/4M0Iw==}
@@ -5211,8 +5213,8 @@ packages:
       stop-iteration-iterator: 1.0.0
     dev: true
 
-  /es-module-lexer@0.9.3:
-    resolution: {integrity: sha512-1HQ2M2sPtxwnvOvT1ZClHyQDiggdNjURWpY2we6aMKCQiUVxTmVs2UYPLIrD84sS+kMdUwfBSylbJPwNnBrnHQ==}
+  /es-module-lexer@1.2.1:
+    resolution: {integrity: sha512-9978wrXM50Y4rTMmW5kXIC09ZdXQZqkE4mxhwkd8VbzsGkXGPgV4zWuqQJgCEzYngdo2dYDa0l8xhX4fkSwJSg==}
 
   /es-set-tostringtag@2.0.1:
     resolution: {integrity: sha512-g3OMbtlwY3QewlqAiMLI47KywjWZoEytKr8pf6iTC8uJq5bIAH52Z9pnQ8pVL6whrCto53JZDuUIsifGeLorTg==}
@@ -5785,7 +5787,7 @@ packages:
     dependencies:
       flat-cache: 3.0.4
 
-  /file-loader@6.2.0(webpack@5.78.0):
+  /file-loader@6.2.0(webpack@5.79.0):
     resolution: {integrity: sha512-qo3glqyTa61Ytg4u73GultjHGjdRyig3tG6lPtyX/jOEJvHif9uB0/OCI2Kif6ctF3caQTW2G5gym21oAsI4pw==}
     engines: {node: '>= 10.13.0'}
     peerDependencies:
@@ -5793,7 +5795,7 @@ packages:
     dependencies:
       loader-utils: 2.0.4
       schema-utils: 3.1.1
-      webpack: 5.78.0(@swc/core@1.3.49)
+      webpack: 5.79.0(@swc/core@1.3.49)
 
   /filelist@1.0.4:
     resolution: {integrity: sha512-w1cEuf3S+DrLCQL7ET6kz+gmlJdbq9J7yXCSjK/OZCPA+qEN1WyF4ZAf0YYJa4/shHJra2t/d/r8SV4Ji+x+8Q==}
@@ -6032,7 +6034,7 @@ packages:
       fs.realpath: 1.0.0
       inflight: 1.0.6
       inherits: 2.0.4
-      minimatch: 3.1.2
+      minimatch: 3.0.5
       once: 1.4.0
       path-is-absolute: 1.0.1
 
@@ -6838,9 +6840,9 @@ packages:
       jest-environment-node: 28.1.3
       jest-get-type: 28.0.2
       jest-regex-util: 28.0.2
-      jest-resolve: 28.1.3
+      jest-resolve: 28.1.1
       jest-runner: 28.1.3
-      jest-util: 28.1.3
+      jest-util: 28.1.1
       jest-validate: 28.1.3
       micromatch: 4.0.5
       parse-json: 5.2.0
@@ -7190,7 +7192,7 @@ packages:
       graceful-fs: 4.2.11
       jest-haste-map: 28.1.3
       jest-pnp-resolver: 1.2.3(jest-resolve@28.1.1)
-      jest-util: 28.1.3
+      jest-util: 28.1.1
       jest-validate: 28.1.3
       resolve: 1.22.2
       resolve.exports: 1.1.0
@@ -7561,8 +7563,8 @@ packages:
       '@sideway/pinpoint': 2.0.0
     dev: false
 
-  /jose@4.13.1:
-    resolution: {integrity: sha512-MSJQC5vXco5Br38mzaQKiq9mwt7lwj2eXpgpRyQYNHYt2lq1PjkWa7DLXX0WVcQLE9HhMh3jPiufS7fhJf+CLQ==}
+  /jose@4.13.2:
+    resolution: {integrity: sha512-GMUKtV+l05F6NY/06nM7rucHM6Ktvw6sxnyRqINBNWS/hCM/bBk7kanOEckRP8xtC/jzuGfTRVZvkjjuy+g4dA==}
     dev: false
 
   /js-sdsl@4.4.0:
@@ -7611,7 +7613,7 @@ packages:
       http-proxy-agent: 5.0.0
       https-proxy-agent: 5.0.1
       is-potential-custom-element-name: 1.0.1
-      nwsapi: 2.2.3
+      nwsapi: 2.2.4
       parse5: 7.1.2
       saxes: 6.0.0
       symbol-tree: 3.2.4
@@ -8006,17 +8008,17 @@ packages:
   /neo-async@2.6.2:
     resolution: {integrity: sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==}
 
-  /next-pwa@5.6.0(@babel/core@7.21.4)(@swc/core@1.3.49)(next@13.3.0)(webpack@5.78.0):
+  /next-pwa@5.6.0(@babel/core@7.21.4)(@swc/core@1.3.49)(next@13.3.0)(webpack@5.79.0):
     resolution: {integrity: sha512-XV8g8C6B7UmViXU8askMEYhWwQ4qc/XqJGnexbLV68hzKaGHZDMtHsm2TNxFcbR7+ypVuth/wwpiIlMwpRJJ5A==}
     peerDependencies:
       next: '>=9.0.0'
     dependencies:
-      babel-loader: 8.3.0(@babel/core@7.21.4)(webpack@5.78.0)
-      clean-webpack-plugin: 4.0.0(webpack@5.78.0)
+      babel-loader: 8.3.0(@babel/core@7.21.4)(webpack@5.79.0)
+      clean-webpack-plugin: 4.0.0(webpack@5.79.0)
       globby: 11.1.0
       next: 13.3.0(@babel/core@7.21.4)(react-dom@18.2.0)(react@18.2.0)
-      terser-webpack-plugin: 5.3.7(@swc/core@1.3.49)(webpack@5.78.0)
-      workbox-webpack-plugin: 6.5.4(webpack@5.78.0)
+      terser-webpack-plugin: 5.3.7(@swc/core@1.3.49)(webpack@5.79.0)
+      workbox-webpack-plugin: 6.5.4(webpack@5.79.0)
       workbox-window: 6.5.4
     transitivePeerDependencies:
       - '@babel/core'
@@ -8129,8 +8131,8 @@ packages:
     dependencies:
       boolbase: 1.0.0
 
-  /nwsapi@2.2.3:
-    resolution: {integrity: sha512-jscxIO4/VKScHlbmFBdV1Z6LXnLO+ZR4VMtypudUdfwtKxUN3TQcNFIHLwKtrUbDyHN4/GycY9+oRGZ2XMXYPw==}
+  /nwsapi@2.2.4:
+    resolution: {integrity: sha512-NHj4rzRo0tQdijE9ZqAx6kYDcoRwYwSYzCA8MY3JzfxlrvEU0jhnhJT9BhqhJs7I/dKcrDm6TyulaRqZPIhN5g==}
     dev: true
 
   /nx@15.9.2(@swc/core@1.3.49):
@@ -8305,7 +8307,7 @@ packages:
   /openid-client@5.4.0:
     resolution: {integrity: sha512-hgJa2aQKcM2hn3eyVtN12tEA45ECjTJPXCgUh5YzTzy9qwapCvmDTVPWOcWVL0d34zeQoQ/hbG9lJhl3AYxJlQ==}
     dependencies:
-      jose: 4.13.1
+      jose: 4.13.2
       lru-cache: 6.0.0
       object-hash: 2.2.0
       oidc-token-hash: 5.0.2
@@ -9597,7 +9599,7 @@ packages:
       supports-hyperlinks: 2.3.0
     dev: true
 
-  /terser-webpack-plugin@5.3.7(@swc/core@1.3.49)(webpack@5.78.0):
+  /terser-webpack-plugin@5.3.7(@swc/core@1.3.49)(webpack@5.79.0):
     resolution: {integrity: sha512-AfKwIktyP7Cu50xNjXF/6Qb5lBNzYaWpU6YfoX3uZicTx0zTy0stDDCsvjDapKsSDvOeWo5MEq4TmdBy2cNoHw==}
     engines: {node: '>= 10.13.0'}
     peerDependencies:
@@ -9619,7 +9621,7 @@ packages:
       schema-utils: 3.1.1
       serialize-javascript: 6.0.1
       terser: 5.16.9
-      webpack: 5.78.0(@swc/core@1.3.49)
+      webpack: 5.79.0(@swc/core@1.3.49)
 
   /terser@5.16.9:
     resolution: {integrity: sha512-HPa/FdTB9XGI2H1/keLFZHxl6WNvAI4YalHGtDQTlMnJcoqSab1UwL4l1hGEhs6/GmLHBZIg/YgB++jcbzoOEg==}
@@ -9976,7 +9978,7 @@ packages:
     resolution: {integrity: sha512-jk1+QP6ZJqyOiuEI9AEWQfju/nB2Pw466kbA0LEZljHwKeMgd9WrAEgEGxjPDD2+TNbbb37rTyhEfrCXfuKXnA==}
     dev: false
 
-  /url-loader@4.1.1(webpack@5.78.0):
+  /url-loader@4.1.1(webpack@5.79.0):
     resolution: {integrity: sha512-3BTV812+AVHHOJQO8O5MkWgZ5aosP7GnROJwvzLS9hWDj00lZ6Z0wNak423Lp9PBZN05N+Jk/N5Si8jRAlGyWA==}
     engines: {node: '>= 10.13.0'}
     peerDependencies:
@@ -9989,7 +9991,7 @@ packages:
       loader-utils: 2.0.4
       mime-types: 2.1.35
       schema-utils: 3.1.1
-      webpack: 5.78.0(@swc/core@1.3.49)
+      webpack: 5.79.0(@swc/core@1.3.49)
     dev: false
 
   /url-parse@1.5.10:
@@ -10103,8 +10105,8 @@ packages:
     resolution: {integrity: sha512-/DyMEOrDgLKKIG0fmvtz+4dUX/3Ghozwgm6iPp8KRhvn+eQf9+Q7GWxVNMk3+uCPWfdXYC4ExGBckIXdFEfH1w==}
     engines: {node: '>=10.13.0'}
 
-  /webpack@5.78.0(@swc/core@1.3.49):
-    resolution: {integrity: sha512-gT5DP72KInmE/3azEaQrISjTvLYlSM0j1Ezhht/KLVkrqtv10JoP/RXhwmX/frrutOPuSq3o5Vq0ehR/4Vmd1g==}
+  /webpack@5.79.0(@swc/core@1.3.49):
+    resolution: {integrity: sha512-3mN4rR2Xq+INd6NnYuL9RC9GAmc1ROPKJoHhrZ4pAjdMFEkJJWrsPw8o2JjCIyQyTu7rTXYn4VG6OpyB3CobZg==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     peerDependencies:
@@ -10114,7 +10116,7 @@ packages:
         optional: true
     dependencies:
       '@types/eslint-scope': 3.7.4
-      '@types/estree': 0.0.51
+      '@types/estree': 1.0.0
       '@webassemblyjs/ast': 1.11.1
       '@webassemblyjs/wasm-edit': 1.11.1
       '@webassemblyjs/wasm-parser': 1.11.1
@@ -10123,7 +10125,7 @@ packages:
       browserslist: 4.21.5
       chrome-trace-event: 1.0.3
       enhanced-resolve: 5.12.0
-      es-module-lexer: 0.9.3
+      es-module-lexer: 1.2.1
       eslint-scope: 5.1.1
       events: 3.3.0
       glob-to-regexp: 0.4.1
@@ -10134,7 +10136,7 @@ packages:
       neo-async: 2.6.2
       schema-utils: 3.1.1
       tapable: 2.2.1
-      terser-webpack-plugin: 5.3.7(@swc/core@1.3.49)(webpack@5.78.0)
+      terser-webpack-plugin: 5.3.7(@swc/core@1.3.49)(webpack@5.79.0)
       watchpack: 2.4.0
       webpack-sources: 3.2.3
     transitivePeerDependencies:
@@ -10353,7 +10355,7 @@ packages:
     resolution: {integrity: sha512-vo2RQo7DILVRoH5LjGqw3nphavEjK4Qk+FenXeUsknKn14eCNedHOXWbmnvP4ipKhlE35pvJ4yl4YYf6YsJArA==}
     dev: false
 
-  /workbox-webpack-plugin@6.5.4(webpack@5.78.0):
+  /workbox-webpack-plugin@6.5.4(webpack@5.79.0):
     resolution: {integrity: sha512-LmWm/zoaahe0EGmMTrSLUi+BjyR3cdGEfU3fS6PN1zKFYbqAKuQ+Oy/27e4VSXsyIwAw8+QDfk1XHNGtZu9nQg==}
     engines: {node: '>=10.0.0'}
     peerDependencies:
@@ -10362,7 +10364,7 @@ packages:
       fast-json-stable-stringify: 2.1.0
       pretty-bytes: 5.6.0
       upath: 1.2.0
-      webpack: 5.78.0(@swc/core@1.3.49)
+      webpack: 5.79.0(@swc/core@1.3.49)
       webpack-sources: 1.4.3
       workbox-build: 6.5.4
     transitivePeerDependencies:
