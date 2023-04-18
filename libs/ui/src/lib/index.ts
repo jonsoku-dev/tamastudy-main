@@ -1,3 +1,4 @@
+'use client';
 export * from './Styles';
 export * from './Layouts';
 export * from './News2';

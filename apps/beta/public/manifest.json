@@ -1,0 +1,23 @@
+{
+  "background_color": "#6500fc",
+  "description": "함께하는 즐거움",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "tamastudy",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "tamastudy",
+  "start_url": "/",
+  "theme_color": "#6500fc",
+  "categories": ["education", "entertainment", "social"],
+  "screenshots": [],
+  "icons": [
+    {
+      "src": "/android-chrome-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    }
+  ],
+  "shortcuts": [],
+  "lang": "ko"
+}

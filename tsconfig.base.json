@@ -21,6 +21,7 @@
       "@tama/hooks": ["libs/hooks/src/index.ts"],
       "@tama/types": ["libs/types/src/index.ts"],
       "@tama/ui": ["libs/ui/src/index.ts"],
+      "@tama/ui-beta": ["libs/ui-beta/ui-beta/src/index.ts"],
       "@tama/utils": ["libs/utils/src/index.ts"],
       "@tama/workers": ["libs/workers/src/index.ts"]
     }

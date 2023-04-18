@@ -1,3 +1,4 @@
+'use client';
 import { useCallback, useEffect, useRef, useState } from 'react';
 
 export const useTimeout = (callback: () => void, delay: number | null) => {
