@@ -1,15 +1,15 @@
 version: "3.8"
 services:
-  nginx:
-    container_name: nginx
-    restart: always
-    build:
-      context: ./nginx
-      dockerfile: Dockerfile
-    ports:
-      - "3050:80"
-    networks:
-      - net1
+#  nginx:
+#    container_name: nginx
+#    restart: always
+#    build:
+#      context: ./nginx
+#      dockerfile: Dockerfile
+#    ports:
+#      - "3050:80"
+#    networks:
+#      - net1
   nextjs:
     container_name: nextjs
     build:
@@ -18,6 +18,8 @@ services:
       args:
         ENV_VARIABLE: ${ENV_VARIABLE}
         NEXT_PUBLIC_ENV_VARIABLE: ${NEXT_PUBLIC_ENV_VARIABLE}
+    ports:
+      - "3050:3000"
     env_file:
       - .env
     networks:
