@@ -43,7 +43,7 @@ const nextConfig = {
   experimental: {
     appDir: false,
     // this includes files from the monorepo base two directories up
-    outputFileTracingRoot: path.join(__dirname, '../../'),
+    // outputFileTracingRoot: path.join(__dirname, '../../'),
   },
   reactStrictMode: true,
 };
